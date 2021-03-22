@@ -2,14 +2,15 @@ html{
    font-family: 'Montserrat', sans-serif;
    margin-left: 5%;
    margin-right: 5%;
+   color: #e9cfcb;
+
 }
 
 body{
-   background-color: rgb(128, 108, 108);
+   background-color: rgb(78, 66, 66);
 }
 
 .titulo {
-   color: #e9cfcb;
    text-align: center;
 }
 
