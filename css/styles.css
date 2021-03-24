@@ -56,9 +56,27 @@ p {
 
 #logo {
    display: block;
-   background-color: rgb(255, 255, 255);
+   background-color: #e9cfcb;
    padding: .8%;
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 5%;
+   width: 04%;
+}
+
+@media screen and (max-width: 768px) { 
+
+   .titulo {
+      font-size: 30px;
+      height: 200px;
+   }
+
+   .imagen{
+      height: 150px;
+   }
+
+   #logo{
+      width: 10%;
+      padding: 3%;
+   }
 }
