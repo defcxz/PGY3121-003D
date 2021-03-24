@@ -1,23 +1,36 @@
 html{
    font-family: 'Montserrat', sans-serif;
-   margin-left: 15%;
-   margin-right: 15%;
+   /* margin-left: 15%;
+   margin-right: 15%; */
    color: #e9cfcb;
-
 }
 
 body{
-   background-color: rgb(78, 66, 66);
+   background-color: rgb(107, 80, 67);
+   margin: 0;
 }
 
 .titulo {
+   font-size: 60px;
+   text-shadow: 0px 0px 8px rgb(0, 0, 0);
+   letter-spacing: 5px;
    text-align: center;
+   display: flex;
+   height: 700px;
+   justify-content: center;
+   align-items: center;
+   background-image: url("https://imagenescityexpress.scdn6.secure.raxcdn.com/sites/default/files/2017-06/parques-nacionales-chile-3.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   margin-top: 0;
+   margin-bottom: 0;
 }
 
 .info{
-   /* padding-left: 3%;
-   padding-right: 3%; */
    padding: 3%;
+   margin-top: 5%;
+   margin-left: 5%;
+   margin-right: 5%;
    margin-bottom: 3%;
    border: 2px solid #e9cfcb;
    border-radius: 14px;
@@ -28,7 +41,7 @@ body{
    line-height: 1px;
 }
 
-.info > p {
+p {
    color: #fff;
    line-height: 30px;
 }
@@ -38,6 +51,7 @@ body{
    margin-left: auto;
    margin-right: auto;
    margin-top: 4%;
+   height: 400px;
 }
 
 #logo {
@@ -46,4 +60,5 @@ body{
    padding: .8%;
    margin-left: auto;
    margin-right: auto;
+   margin-bottom: 5%;
 }
